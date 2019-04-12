@@ -1,7 +1,12 @@
 import math
-t= int(input())
+import sys
+
+#t= int(input())
+t=int(sys.argv[1])
+print(t)
 for k in range(1, t + 1):
-    N=int(input())
+    #N=int(input())
+    N=int(sys.argv[2])
     a=[]
     b=[]
     while N>=1:
